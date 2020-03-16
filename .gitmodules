@@ -19,3 +19,6 @@
 [submodule "/Users/ian/.vim/pack/plugins/start/vim-javascript"]
 	path = /Users/ian/.vim/pack/plugins/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "/Users/ian/.vim/pack/plugins/start/ansible-vim"]
+	path = /Users/ian/.vim/pack/plugins/start/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim
