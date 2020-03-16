@@ -16,3 +16,6 @@
 [submodule "/Users/ian/.vim/pack/plugins/start/fugitive"]
 	path = /Users/ian/.vim/pack/plugins/start/fugitive
 	url = https://tpope.io/vim/fugitive.git
+[submodule "/Users/ian/.vim/pack/plugins/start/vim-javascript"]
+	path = /Users/ian/.vim/pack/plugins/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
