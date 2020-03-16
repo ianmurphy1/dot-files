@@ -1,3 +1,12 @@
 [submodule "/Users/ian/.vim/pack/plugins/start/vim-airline"]
 	path = /Users/ian/.vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "/Users/ian/.vim/pack/plugins/start/jellybeans"]
+	path = /Users/ian/.vim/pack/plugins/start/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "/Users/ian/.vim/pack/plugins/start/airline-themes"]
+	path = /Users/ian/.vim/pack/plugins/start/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "/Users/ian/.vim/pack/plugins/start/nerdtree"]
+	path = /Users/ian/.vim/pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
