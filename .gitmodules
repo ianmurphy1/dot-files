@@ -22,3 +22,6 @@
 [submodule "/Users/ian/.vim/pack/plugins/start/ansible-vim"]
 	path = /Users/ian/.vim/pack/plugins/start/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
+[submodule "/Users/ian/.vim/pack/plugins/start/typescript-vim"]
+	path = /Users/ian/.vim/pack/plugins/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
