@@ -6,7 +6,7 @@
 	url = https://github.com/nanotech/jellybeans.vim.git
 [submodule "/Users/ian/.vim/pack/plugins/start/airline-themes"]
 	path = /Users/ian/.vim/pack/plugins/start/airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "/Users/ian/.vim/pack/plugins/start/nerdtree"]
 	path = /Users/ian/.vim/pack/plugins/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
