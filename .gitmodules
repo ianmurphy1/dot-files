@@ -25,3 +25,30 @@
 [submodule "/Users/ian/.vim/pack/plugins/start/typescript-vim"]
 	path = /Users/ian/.vim/pack/plugins/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/plugins/start/surround"]
+	path = pack/plugins/start/surround
+	url = https://tpope.io/vim/surround.git
+[submodule "pack/plugins/start/airline-themes"]
+	path = pack/plugins/start/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/plugins/start/fugitive"]
+	path = pack/plugins/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+[submodule "pack/plugins/start/jellybeans"]
+	path = pack/plugins/start/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/plugins/start/typescript-vim"]
+	path = pack/plugins/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/plugins/start/vim-javascript"]
+	path = pack/plugins/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
