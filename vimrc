@@ -70,8 +70,8 @@ set directory=~/.vim/swap//
 set tabstop=4
 set shiftwidth=4
 
-autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 expandtab
-autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 expandtab path+=node_modules
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 expandtab path+=node_modules
 autocmd FileType json setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType sql setlocal shiftwidth=2 tabstop=2 expandtab
@@ -94,3 +94,5 @@ noremap <Leader>y "*y
 noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
+
+highlight clear SignColumn
