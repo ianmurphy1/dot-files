@@ -2,6 +2,7 @@ set nocompatible
 filetype plugin indent on
 syntax on
 set backspace=indent,eol,start
+set encoding=UTF-8
 
 if !exists("g:os")
   if has("win64") || has("win32") || has("win16")
@@ -79,6 +80,8 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType go setlocal shiftwidth=4 tabstop=4 expandtab
 
 map <silent> <C-o> :NERDTreeToggle<CR>
+" Start NERDTree and put the cursor back in the other window.
+" autocmd VimEnter * NERDTree | wincmd p
 
 let g:sql_set_type_default = 'pgsql'
 

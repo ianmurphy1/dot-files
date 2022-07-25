@@ -28,3 +28,6 @@
 [submodule "pack/plugins/start/repeat"]
 	path = pack/plugins/start/repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/plugins/start/Dockerfile"]
+	path = pack/plugins/start/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
