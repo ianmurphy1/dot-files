@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/Dockerfile"]
 	path = pack/plugins/start/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "pack/plugins/start/vim-go"]
+	path = pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go.git
