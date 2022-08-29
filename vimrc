@@ -59,10 +59,15 @@ set term=xterm-256color
 set termencoding=utf-8
 set laststatus=2
 colorscheme jellybeans
+
+" Disable arrows for navigation
 no <down> ddp
 no <left> <Nop>
 no <right> <Nop>
 no <up> ddkP
+"
+
+
 set updatetime=1000
 set splitright
 set background=dark
@@ -99,3 +104,6 @@ noremap <Leader>Y "+y
 noremap <Leader>P "+p
 
 highlight clear SignColumn
+
+" disable fmt on save
+let g:go_fmt_autosave = 0
