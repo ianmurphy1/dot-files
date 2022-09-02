@@ -107,3 +107,7 @@ highlight clear SignColumn
 
 " disable fmt on save
 let g:go_fmt_autosave = 0
+
+" Fix for NERDTree menu stuck in expanded mode after copying/moving files/dirs
+" in the NERDTree's context menu
+let g:NERDTreeMinimalMenu=1
