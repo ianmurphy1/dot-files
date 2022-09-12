@@ -67,6 +67,11 @@ no <right> <Nop>
 no <up> ddkP
 "
 
+" Setup <Space> as <Leader> key
+"
+nnoremap <Space> <Nop>
+map <Space> <Leader>
+
 
 set updatetime=1000
 set splitright
