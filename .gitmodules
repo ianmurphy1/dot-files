@@ -43,3 +43,6 @@
 [submodule "pack/plugins/start/haskell-vim"]
 	path = pack/plugins/start/haskell-vim
 	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "pack/plugins/start/haskell-indent"]
+	path = pack/plugins/start/haskell-indent
+	url = https://github.com/itchyny/vim-haskell-indent.git
