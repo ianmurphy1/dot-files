@@ -40,3 +40,6 @@
 [submodule "pack/plugins/start/vim-python-pep8-indent"]
 	path = pack/plugins/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "pack/plugins/start/haskell-vim"]
+	path = pack/plugins/start/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
