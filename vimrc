@@ -88,6 +88,7 @@ autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType sql setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType go setlocal shiftwidth=4 tabstop=4 expandtab
+autocmd FileType python setlocal shiftwidth=4 tabstop=4 noexpandtab
 
 map <silent> <C-o> :NERDTreeToggle<CR>
 " Start NERDTree and put the cursor back in the other window.

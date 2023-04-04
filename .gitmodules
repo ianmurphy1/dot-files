@@ -40,3 +40,12 @@
 [submodule "pack/plugins/start/rust.vim"]
 	path = pack/plugins/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/plugins/start/vim-python-pep8-indent"]
+	path = pack/plugins/start/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "pack/plugins/start/haskell-vim"]
+	path = pack/plugins/start/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "pack/plugins/start/haskell-indent"]
+	path = pack/plugins/start/haskell-indent
+	url = https://github.com/itchyny/vim-haskell-indent.git
