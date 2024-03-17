@@ -1,3 +1,9 @@
+if &term == "xterm-kitty"
+	set term=kitty
+else
+	set term=xterm-256color
+endif
+
 set nocompatible 
 filetype plugin indent on
 syntax on
@@ -19,10 +25,17 @@ end
 set mouse=a
 let NERDTreeShowHidden=1
 let g:airline_powerline_fonts=1
-set guifont=Inconsolata\ for\ Powerline:h16
+"set guifont=Inconsolata\ for\ Powerline:h16
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
+
+"let g:jellybeans_overrides = {
+"\    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
+"\}
+"if has('termguicolors') && &termguicolors
+"    let g:jellybeans_overrides['background']['guibg'] = 'none'
+"endif
 
 " unicode symbols
 "let g:airline_left_sep = '»'
@@ -55,7 +68,6 @@ let g:airline_theme='jellybeans'
 set number
 set encoding=utf-8
 set t_Co=256
-set term=xterm-256color
 set termencoding=utf-8
 set laststatus=2
 colorscheme jellybeans
@@ -117,3 +129,6 @@ let g:go_fmt_autosave = 0
 " Fix for NERDTree menu stuck in expanded mode after copying/moving files/dirs
 " in the NERDTree's context menu
 " let g:NERDTreeMinimalMenu=1
+
+" Settings for the linux styling plugin
+let g:linuxsty_patterns = [ "/home/ian/dev/kernel" ]
