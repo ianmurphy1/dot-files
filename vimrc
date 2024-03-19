@@ -1,4 +1,5 @@
 set nocompatible 
+set term=kitty
 filetype plugin indent on
 syntax on
 set backspace=indent,eol,start
@@ -19,10 +20,16 @@ end
 set mouse=a
 let NERDTreeShowHidden=1
 let g:airline_powerline_fonts=1
-set guifont=Inconsolata\ for\ Powerline:h16
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
+
+"let g:jellybeans_overrides = {
+"\    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
+"\}
+"if has('termguicolors') && &termguicolors
+"    let g:jellybeans_overrides['background']['guibg'] = 'none'
+"endif
 
 " unicode symbols
 "let g:airline_left_sep = '»'
@@ -55,7 +62,6 @@ let g:airline_theme='jellybeans'
 set number
 set encoding=utf-8
 set t_Co=256
-set term=xterm-256color
 set termencoding=utf-8
 set laststatus=2
 colorscheme jellybeans
@@ -73,7 +79,7 @@ nnoremap <Space> <Nop>
 map <Space> <Leader>
 
 
-set updatetime=1000
+set updatetime=400
 set splitright
 set background=dark
 set backupdir=~/.vim/backup//
@@ -113,6 +119,8 @@ highlight clear SignColumn
 
 " disable fmt on save
 let g:go_fmt_autosave = 0
+
+let gitgutter_terminal_reports_focus=0
 
 " Fix for NERDTree menu stuck in expanded mode after copying/moving files/dirs
 " in the NERDTree's context menu
