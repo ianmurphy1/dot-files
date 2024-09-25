@@ -134,3 +134,21 @@ let gitgutter_terminal_reports_focus=0
 
 " Settings for the linux styling plugin
 let g:linuxsty_patterns = [ "/home/ian/dev/kernel" ]
+
+let g:vimtex_compiler_method = "latexmk"
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_compiler_latexmk = {
+        \ 'aux_dir' : '',
+        \ 'out_dir' : '',
+        \ 'callback' : 1,
+        \ 'continuous' : 1,
+        \ 'executable' : 'latexmk',
+        \ 'hooks' : [],
+        \ 'options' : [
+        \   '-xelatex',
+        \   '-verbose',
+        \   '-file-line-error',
+        \   '-synctex=1',
+        \   '-interaction=nonstopmode',
+        \ ],
+        \}
