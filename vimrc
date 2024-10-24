@@ -6,9 +6,10 @@ endif
 
 set nocompatible 
 filetype plugin indent on
-syntax on
 set backspace=indent,eol,start
 set encoding=UTF-8
+set background=dark
+syntax enable
 
 if !exists("g:os")
   if has("win64") || has("win32") || has("win16")
@@ -87,7 +88,6 @@ map <Space> <Leader>
 
 set updatetime=400
 set splitright
-set background=dark
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set tabstop=4
@@ -101,6 +101,10 @@ autocmd FileType sql setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType go setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 noexpandtab
+
+augroup filetypedetect
+    autocmd BufNew,BufNewFile,BufRead *.tofu :setfiletype terraform
+augroup END
 
 map <silent> <C-o> :NERDTreeToggle<CR>
 " Start NERDTree and put the cursor back in the other window.
@@ -126,7 +130,7 @@ highlight clear SignColumn
 " disable fmt on save
 let g:go_fmt_autosave = 0
 
-let gitgutter_terminal_reports_focus=0
+let g:gitgutter_terminal_reports_focus=0
 
 " Fix for NERDTree menu stuck in expanded mode after copying/moving files/dirs
 " in the NERDTree's context menu
@@ -152,3 +156,6 @@ let g:vimtex_compiler_latexmk = {
         \   '-interaction=nonstopmode',
         \ ],
         \}
+
+source ~/.vim/coc_settings.vim
+source ~/.vim/coc_extensions.vim
