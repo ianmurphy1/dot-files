@@ -11,6 +11,13 @@
           "expr": "(builtins.getFlake \"/home/ian/nixos-config\").nixosConfigurations.nixos.options"
         }
       }
+    },
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
     }
   }
 }
