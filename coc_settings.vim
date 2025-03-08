@@ -145,3 +145,11 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+function! s:disable_coc_for_type()
+        let l:filesuffix_blacklist = ['c', 'cpp', 'h', 'asm', 'hpp', 'vim', 'sh', 'py']
+	if index(l:filesuffix_blacklist, expand('%:e')) != -1
+		let b:coc_enabled = 0
+	endif
+endfunction
+autocmd BufRead,BufNewFile * call s:disable_coc_for_type()
