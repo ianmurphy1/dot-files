@@ -2,5 +2,7 @@
 let g:coc_global_extensions = [
 			\'coc-json',
 			\'coc-git',
-			\'coc-sh'
+			\'coc-sh',
+      \'coc-yaml',
+      \'coc-vimlsp',
 			\]
