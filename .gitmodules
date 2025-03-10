@@ -62,3 +62,6 @@
 	path = pack/plugins/start/coc
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "pack/plugins/start/ansible-vim"]
+	path = pack/plugins/start/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim.git
