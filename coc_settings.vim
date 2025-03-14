@@ -153,3 +153,8 @@ function! s:disable_coc_for_type()
 	endif
 endfunction
 autocmd BufRead,BufNewFile * call s:disable_coc_for_type()
+
+" Allows ansible-vim and coc-ansible to interact
+let g:coc_filetype_map = {
+  \ 'yaml.ansible': 'ansible',
+  \ }
