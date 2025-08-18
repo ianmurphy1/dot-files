@@ -19,5 +19,7 @@
       "initializationOptions": {},
       "settings": {}
     }
-  }
+  },
+  "python.pythonPath": "python3",
+  "pyright.enable": true
 }

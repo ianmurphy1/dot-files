@@ -95,6 +95,15 @@ set tabstop=2 shiftwidth=2 expandtab
 autocmd FileType javascript setlocal path+=node_modules
 autocmd FileType typescript setlocal path+=node_modules
 
+" Settings for fastlane files
+au BufNewFile,BufRead Appfile set ft=ruby
+au BufNewFile,BufRead Deliverfile set ft=ruby
+au BufNewFile,BufRead Fastfile set ft=ruby
+au BufNewFile,BufRead Gymfile set ft=ruby
+au BufNewFile,BufRead Matchfile set ft=ruby
+au BufNewFile,BufRead Snapfile set ft=ruby
+au BufNewFile,BufRead Scanfile set ft=ruby
+
 augroup filetypedetect
     autocmd BufNew,BufNewFile,BufRead *.tofu :setfiletype terraform
 augroup END
