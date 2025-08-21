@@ -94,6 +94,7 @@ set tabstop=2 shiftwidth=2 expandtab
 
 autocmd FileType javascript setlocal path+=node_modules
 autocmd FileType typescript setlocal path+=node_modules
+autocmd FileType python let b:coc_root_patterns = ['.git', 'lambda']
 
 " Settings for fastlane files
 au BufNewFile,BufRead Appfile set ft=ruby
