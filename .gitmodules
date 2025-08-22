@@ -65,3 +65,6 @@
 [submodule "pack/plugins/start/ansible-vim"]
 	path = pack/plugins/start/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim.git
+[submodule "pack/plugins/start/commentary"]
+	path = pack/plugins/start/commentary
+	url = https://tpope.io/vim/commentary.git
