@@ -64,14 +64,21 @@ endif
 
 let g:airline_symbols.space="\ua0"
 let g:airline_skip_empty_sections=1
-let g:Powerline_symbols ='fancy'
-let g:airline_theme='jellybeans'
 set number
 set encoding=utf-8
 set t_Co=256
 set termencoding=utf-8
 set laststatus=2
+
+set termguicolors
 colorscheme jellybeans
+let g:Powerline_symbols='fancy'
+let g:airline_theme='jellybeans'
+
+" Change default verticle split highlight and char
+set fillchars=vert:│
+highlight VertSplit ctermfg=240 guifg=#555555 ctermbg=NONE guibg=NONE
+
 
 " Disable arrows for navigation
 no <down> ddp
